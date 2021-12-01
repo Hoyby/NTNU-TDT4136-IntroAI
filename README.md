@@ -62,7 +62,7 @@ Produce intelligent behaviour by any means
 
 Computer Science is the main discipline underlying AI.
 Can we thing which other disciplines AI is grounded on?
-![](img/l1/figure1.png)
+![](img/L1/figure1.png)
 
 ## AI prehistory
 
@@ -79,7 +79,7 @@ Can we thing which other disciplines AI is grounded on?
 ## Birth of AI field
 
 A Summer Research Project in the Dartmouth College, in 1956 was the birth of the AI research field.
-![](img/l1/figure2.png)
+![](img/L1/figure2.png)
 McCarthy: "...to proceed on the basis of the conjecture that every aspect of learning or any other feature of intelligence can in principle be so precisely described that a machine can be made to simulate it."
 
 ## Brief history of AI
@@ -104,7 +104,7 @@ McCarthy: "...to proceed on the basis of the conjecture that every aspect of lea
 ## Example from Early History of AI
 
 1943 McCulloch & Pitts: Boolean circuit model of brain
-![](img/l1/figure3.png)
+![](img/L1/figure3.png)
 
 ## McCulloch and Pitts 1943
 
@@ -125,7 +125,7 @@ Assume a bird will "decide" to eat/not an object (e.g., blue berry, orange, bask
 - shape: round or not
 - colour: purple or not
 - decision: eat only if round purple object (e.g., blue berry)
-  ![](img/l1/figure4.png)
+  ![](img/L1/figure4.png)
 - two inputs (each takes value $0$ or $1$)
 - threshold $T$
 - output is a function of inputs and $T$
@@ -135,9 +135,9 @@ IF(sum(inputs)) >= T
 THEN Output=1
 ```
 
-![](img/l1/figure5.png)
-![](img/l1/figure6.png)
-![](img/l1/figure7.png)
+![](img/L1/figure5.png)
+![](img/L1/figure6.png)
+![](img/L1/figure7.png)
 
 ## Some killer apps in AI
 
@@ -151,9 +151,9 @@ THEN Output=1
 
 Russel and Norvig's definition of AI
 Two dimensions:
-![](img/l1/figure8.png)
+![](img/L1/figure8.png)
 Types/approaches to AI - as defined by Russel and Norvig:
-![](img/l1/figure9.png)
+![](img/L1/figure9.png)
 
 ## Thinking humanly: Cognitive Science
 
@@ -176,7 +176,7 @@ https://www.youtube.com/watch?v=Ozipf13jRr4
 Turing (1950) "Computing machinery and intelligence":
 "Can machines think?" $\rightarrow$ "**Can machines behave intelligently**"
 Operational test for intelligent behavior: the **Imitation Game**
-![](img/l1/figure10.png)
+![](img/L1/figure10.png)
 
 ## Acting Humanly - Eliza
 
@@ -184,7 +184,7 @@ Operational test for intelligent behavior: the **Imitation Game**
 - Eliza functions by "twisting the statements of her 'patients' back at them in the classic manner of a non-directive psychotherapist."
 - The fact that it understands the subject's statements is an illusion.
 - Surprisingly, many users were taking its performance quite seriously.
-  ![](img/l1/figure11.png)
+  ![](img/L1/figure11.png)
 
 ## How humanly is Sophia (Hong Kong firm Hanson Robotics)?
 
@@ -198,11 +198,11 @@ https://www.youtube.com/watch?v=suRuQbDXcrc
 
 ## Thinking rationally: Laws of Thought - 2
 
-![](img/l1/figure12.png)
+![](img/L1/figure12.png)
 
 ## Thinking rationally: Laws of Thought - 3
 
-![](img/l1/figure13.png)
+![](img/L1/figure13.png)
 
 ## Thinking rationally: Laws of Thought - 4
 
@@ -248,30 +248,30 @@ Problems:
 
 ## Agents and environments
 
-![](img/l2/figure1.png)
+![](img/L2/figure1.png)
 
 ## Agent types
 
 An agent is anything that can be viewed as perceiving its environment through sensors and acting upon that environment through actuators.
-![](img/l2/figure2.png)
+![](img/L2/figure2.png)
 
 ## Agent
 
 - Human agent: eyes, ears, and other organs for sensors; hands, legs, mouth, and other body parts for actuators.
-  ![](img/l2/figure3.png)
+  ![](img/L2/figure3.png)
 - Robotic agent: cameras and infrared range finders for sensors; various motors for actuators.
 - Software agent: screen, keyboard, smart phones etc.
 
 ## Example: Vacuum-cleaner world
 
-![](img/l2/figure4.png)
+![](img/L2/figure4.png)
 
 ## Agent function - and program
 
 An **agent function** maps from percepts to actions:
 $$f:\mathcal{P}\rightarrow\mathcal{A}$$
 The **agent program** runs on the physical _architecture_ to produce $f$
-![](img/l2/figure1.png)
+![](img/L2/figure1.png)
 
 ## Systems that act rationally
 
@@ -293,7 +293,7 @@ A rational agent should select an action that is expected to maximize its perfor
 Rational $\implies$ exploration, learning, autonomy
 
 An agent is **autonomous:** takes its decisions (e.g., decide actions) according to the current situation, and changes their "plans" accordingly.
-![](img/l2/figure5.png)
+![](img/L2/figure5.png)
 Sphex wasp relies on its innate "plan", hence lacks autonomy.
 
 ## Rationality depends on PEAS
@@ -310,7 +310,7 @@ Sphex wasp relies on its innate "plan", hence lacks autonomy.
 - Selected performance measure evaluates the **environment sequence**
 
 - For example, in case of the vacuum cleaner, the designer should focus only on collecting as much dirt as possible in time $T$
-  ![](img/l2/figure4.png)
+  ![](img/L2/figure4.png)
 - Or, take also other factors into account, e.g.:
   - amount of time taken to clean
   - amount of electricity consumed
@@ -363,7 +363,7 @@ Consider, e.g., designing an automated taxi:
 
 ## Fully vs Partially Observable Environments - example
 
-![](img/l2/figure6.png)
+![](img/L2/figure6.png)
 
 - squares adjacent to Wumpus are smelly
 - squares adjacent Pit are breezy
@@ -373,7 +373,7 @@ Consider, e.g., designing an automated taxi:
 
 ## Fully vs Partially Observable Environments
 
-![](img/l2/figure7.png)
+![](img/L2/figure7.png)
 
 ## Properties of environments
 
@@ -386,7 +386,7 @@ Consider, e.g., designing an automated taxi:
 - There is some uncertainty about the outcome of an action
 - Multiple outcome alternatives, quantified in terms of probabilities
 
-![](img/l2/figure8.png)
+![](img/L2/figure8.png)
 
 **Episodic environments**
 
@@ -398,7 +398,7 @@ Consider, e.g., designing an automated taxi:
 
 - The current decision could affect all future decisions
 
-![](img/l2/figure9.png)
+![](img/L2/figure9.png)
 
 **Discrete**
 Finite number of distinct states, percepts and actions.
@@ -406,7 +406,7 @@ Finite number of distinct states, percepts and actions.
 **Continuous**
 Continuous time/state/actions
 
-![](img/l2/figure10.png)
+![](img/L2/figure10.png)
 
 **Dynamic environments**
 May change while an agent is deliberating
@@ -417,7 +417,7 @@ The environment does not change
 **Semidynamic**
 The world does not change but the agent's performance score may
 
-![](img/l2/figure11.png)
+![](img/L2/figure11.png)
 
 **Single agent**
 No otger agents - there may be but as a part of the environment
@@ -428,14 +428,14 @@ No otger agents - there may be but as a part of the environment
 - The environment contains other agens whose performance measure depends on my actions and vice versa
 - Competitive and cooperative interactions
 
-![](img/l2/figure12.png)
+![](img/L2/figure12.png)
 
 **Known environments**
 
 - The agent's knowledge about how the environment works/evolves.
 - Note that a known environment (i.e., the agent knows all the rules that apply) may be only partially observable
 
-![](img/l2/figure13.png)
+![](img/L2/figure13.png)
 
 **Unknown environment**
 
@@ -453,12 +453,12 @@ The real world is (of course) partially observable, stochastic, sequential, dyna
 - The agent function will internally be represented by the agent program.
 - The agent program runs on the physical architecture to produce $f.$
 
-![](img/l2/figure14.png)
+![](img/L2/figure14.png)
 
 ## A simple vacuum-cleaner agent
 
 Table that maps percept sequences to actions
-![](img/l2/figure15.png)
+![](img/L2/figure15.png)
 
 ## A simple general agent
 
@@ -490,7 +490,7 @@ Four basic types in order of increasing generality:
 
 ## Simple reflex agents
 
-![](img/l2/figure16.png)
+![](img/L2/figure16.png)
 
 - Uses only the current percept - ignores the percept sequence
 - Implemented through condition-action rules
@@ -527,13 +527,13 @@ function Generic-SimpleReflexAgent( percept) returns an action
 
 ## Simple Reflex agent in "Wumpus world" ??
 
-![](img/l2/figure17.png)
+![](img/L2/figure17.png)
 
 How good a Simple Relex (i.e., without a memory of past) can do in the Wumpus world? Not good :(
 
 ## Model-based Reflex agents
 
-![](img/l2/figure18.png)
+![](img/L2/figure18.png)
 
 ```
 function REFLEX-AGENT-WITH-STATE(percept) returns an action
@@ -553,7 +553,7 @@ function REFLEX-AGENT-WITH-STATE(percept) returns an action
 
 ## Goal-based agents
 
-![](img/l2/figure19.png)
+![](img/L2/figure19.png)
 
 ## Example
 
@@ -561,7 +561,7 @@ function REFLEX-AGENT-WITH-STATE(percept) returns an action
 - Three main mental attitudes: beliefs, desires and, intentions.
 - Their reasoning is also **practical reasoning** - e.g., contrary to deductive reasoning.
 
-![](img/l2/figure20.png)
+![](img/L2/figure20.png)
 
 ## Goal-based agents
 
@@ -580,7 +580,7 @@ Goals provide just a binary happy/unhappy distinction, while utility functions p
 
 Some goals may be achieved in more than one way, with different utility values
 
-![](img/l2/figure21.png)
+![](img/L2/figure21.png)
 
 - utilities are internalization of the performance measure
 - Utility function maps a state (or a sequence of states) onto a real number
@@ -590,7 +590,7 @@ Some goals may be achieved in more than one way, with different utility values
 
 ## Learning agents
 
-![](img/l2/figure22.png)
+![](img/L2/figure22.png)
 
 # Lecture 3 - Problem Solving as Search | Uninformed Search <a name="c3"></a>
 
@@ -606,18 +606,18 @@ Some goals may be achieved in more than one way, with different utility values
 
 ## Example: Cabbage, goat, wolf and farmer
 
-![](img/l3/figure1.png)
+![](img/L3/figure1.png)
 
 How many river crossings does the farmer need? 4, 5, 6, 7, or no solution?
 How did you think to solve the problem?
 
 ## Cabbage, goat, wolf, and the farmer
 
-![](img/l3/figure2.png)
+![](img/L3/figure2.png)
 
 ## Cabbage, goad, wolf and farmer - an answer
 
-![](img/l3/figure3.png)
+![](img/L3/figure3.png)
 
 - The important thing is not how you solved this manually
 - Important is how we can make the machine to solve such problems automatically
@@ -626,13 +626,13 @@ How did you think to solve the problem?
 
 ## Example: solving 8-puzzle
 
-![](img/l3/figure4.png)
+![](img/L3/figure4.png)
 
 What is a **state**?
 
 ## Example: 8-puzzle
 
-![](img/l3/figure5.png)
+![](img/L3/figure5.png)
 
 Search is about exploring alternatives.
 
@@ -659,7 +659,7 @@ function SIMPLE-PROBLEM-SOLVING-AGENT(percept) returns an action
 
 ## Problem formulation
 
-![](img/l3/figure6.png)
+![](img/L3/figure6.png)
 
 A _problem_ is defined by:
 
@@ -678,18 +678,18 @@ Goal may be
 - explicit, e.g., 8-puzzle
 - implicit, e.g., "no dirt"; through a condition as in sudoku: underdefined $8$-puzzle (figure below) where "any" means any except 8, 3, 1
 
-![](img/l3/figure7.png)
+![](img/L3/figure7.png)
 
 ## Solution
 
 - A solution is a sequence of actions that connect the initial state to a goal state.
 - Sometimes no solutions exists
 
-![](img/l3/figure8.png)
+![](img/L3/figure8.png)
 
 ## State Space
 
-![](img/l3/figure9.png)
+![](img/L3/figure9.png)
 
 **A state:** the agent location and the dirt locations
 **State Space:** All the possible states and the links/relationship (in terms of actions) between them
@@ -700,7 +700,7 @@ Goal may be
 
 ## State space - Romania example
 
-![](img/l3/figure6.png)
+![](img/L3/figure6.png)
 
 On holday in Romania; currently in Arad.
 Flight leaces tomorrow from Bucharest
@@ -713,7 +713,7 @@ Flight leaces tomorrow from Bucharest
 
 ## Example: Vauum world state space graph
 
-![](img/l3/figure9.png)
+![](img/L3/figure9.png)
 
 - **States:** integer dirt and robot locations (ignore dirt _amounts_ etc.)
 - **Actions:** Left, Right, Suck, NoOp
@@ -722,7 +722,7 @@ Flight leaces tomorrow from Bucharest
 
 ## Example 8-puzzle
 
-![](img/l3/figure5.png)
+![](img/L3/figure5.png)
 
 - **States:** integer locations of tiles (ignore intermediate positions)
 - **Actions:** move blank left, right, up, down (ignore unjamming etc.)
@@ -733,7 +733,7 @@ Flight leaces tomorrow from Bucharest
 
 ## Example: robotic assembly
 
-![](img/l3/figure10.png)
+![](img/L3/figure10.png)
 
 - **States:**
   - real-valued coordinates of robot joint angles
@@ -744,8 +744,8 @@ Flight leaces tomorrow from Bucharest
 
 ## State Space Graph and Search Tree
 
-![](img/l3/figure11.png)
-![](img/l3/figure12.png)
+![](img/L3/figure11.png)
+![](img/L3/figure12.png)
 
 - A _state_ is a (representation of) a physical configuration
 - A _node_ is a data structure consistuting part of a search tree
@@ -812,7 +812,7 @@ Time and space complexity are measured in terms of
 
 Different "search strategies" explore the possibilites in different order
 
-![](img/l3/figure13.png)
+![](img/L3/figure13.png)
 
 ## Uninformed search strategies
 
@@ -857,9 +857,9 @@ Expand shallowest unexpanded node
 
 - _fringe_ is a FIFO queue, i.e., new successors go at end
 
-![](img/l3/figure14.png)
-![](img/l3/figure15.png)
-![](img/l3/figure16.png)
+![](img/L3/figure14.png)
+![](img/L3/figure15.png)
+![](img/L3/figure16.png)
 
 ## Properties of breadth-first search
 
@@ -912,18 +912,18 @@ Expand deepest unexpanded node
 
 - _fringe_ = LIFO queue, i.e., put successors at front
 
-![](img/l3/figure17.png)
-![](img/l3/figure18.png)
-![](img/l3/figure19.png)
-![](img/l3/figure20.png)
-![](img/l3/figure21.png)
-![](img/l3/figure22.png)
-![](img/l3/figure23.png)
-![](img/l3/figure24.png)
-![](img/l3/figure25.png)
-![](img/l3/figure26.png)
-![](img/l3/figure27.png)
-![](img/l3/figure28.png)
+![](img/L3/figure17.png)
+![](img/L3/figure18.png)
+![](img/L3/figure19.png)
+![](img/L3/figure20.png)
+![](img/L3/figure21.png)
+![](img/L3/figure22.png)
+![](img/L3/figure23.png)
+![](img/L3/figure24.png)
+![](img/L3/figure25.png)
+![](img/L3/figure26.png)
+![](img/L3/figure27.png)
+![](img/L3/figure28.png)
 
 ## Properties of depth-first search
 
@@ -937,7 +937,7 @@ Expand deepest unexpanded node
 
 ## DFS
 
-![](img/l3/figure29.png)
+![](img/L3/figure29.png)
 
 ## Depth-limited search
 
@@ -974,19 +974,19 @@ function ITERATIVE-DEEPENING-SEARCH(problem) returns a solution
 
 ## Iterative deepening search with $l=0$
 
-![](img/l3/figure30.png)
+![](img/L3/figure30.png)
 
 ## Iterative deepening search with $l=1$
 
-![](img/l3/figure31.png)
+![](img/L3/figure31.png)
 
 ## Iterative deepening search with $l=2$
 
-![](img/l3/figure32.png)
+![](img/L3/figure32.png)
 
 ## Iterative deepening search with $l=3$
 
-![](img/l3/figure33.png)
+![](img/L3/figure33.png)
 
 ## Properties of iterative deepening search
 
@@ -997,7 +997,7 @@ function ITERATIVE-DEEPENING-SEARCH(problem) returns a solution
 
 ## Uninformed vs informed search
 
-![](img/l3/figure34.png)
+![](img/L3/figure34.png)
 
 - For an uninformed search strategy, states S1 and S2 are two indifferent nodes (e.g., at the same level in the search tree)
 - Uninformed search strategies uses only the position of the nodes in the tree, not the state descriptions
@@ -1006,7 +1006,7 @@ function ITERATIVE-DEEPENING-SEARCH(problem) returns a solution
 
 ## Summary of tree-search algorithms
 
-![](img/l3/figure35.png)
+![](img/L3/figure35.png)
 
 - \*a) breadth-first complete if $b$ is finite
 - \*b) uniform-cost complete if step cost is $\geq\epsilon>0$
@@ -1045,12 +1045,12 @@ funciton TREE-SEARCH(problem,frontier) returns a solution, or failure
 Informed Search algorithms used "heuristics".
 What is a heuristic?
 
-![](img/l4/figure1.png)
+![](img/L4/figure1.png)
 
 ## Heuristic - example
 
-![](img/l4/figure2.png)
-![](img/l4/figure3.png)
+![](img/L4/figure2.png)
+![](img/L4/figure3.png)
 
 ## Heuristic Search Algorithms
 
@@ -1079,21 +1079,21 @@ Today we look at two well-known informed search algorithms:
 
 ## Greedy Search, Romania Example
 
-![](img/l4/figure4.png)
+![](img/L4/figure4.png)
 
 ## Greedy search for Romania example
 
-![](img/l4/figure5.png)
+![](img/L4/figure5.png)
 
 ## Greedy search example
 
-![](img/l4/figure6.png)
-![](img/l4/figure7.png)
-![](img/l4/figure8.png)
+![](img/L4/figure6.png)
+![](img/L4/figure7.png)
+![](img/L4/figure8.png)
 
 ## Properties of greedy search
 
-![](img/l4/figure3.png)
+![](img/L4/figure3.png)
 
 - **Complete:**
   - No for tree search - can get stuck in loops, e.g., assume getting from Iasi to Fagaras.
@@ -1115,12 +1115,12 @@ $f(n)=$ estimated cost of the cheapest solution through $n$ to goal
 
 ## A\* search example
 
-![](img/l4/figure9.png)
-![](img/l4/figure10.png)
-![](img/l4/figure11.png)
-![](img/l4/figure12.png)
-![](img/l4/figure13.png)
-![](img/l4/figure14.png)
+![](img/L4/figure9.png)
+![](img/L4/figure10.png)
+![](img/L4/figure11.png)
+![](img/L4/figure12.png)
+![](img/L4/figure13.png)
+![](img/L4/figure14.png)
 
 ## Properties of A\*
 
@@ -1150,16 +1150,16 @@ A\* optimal if
 
 Gradually adds "$f$-contours" of nodes (cf. breadth-first adds layers). Contour $i$ has all nodes with $f=f_i,$ where $f_i<f_{i+1}$
 
-![](img/l4/figure15.png)
+![](img/L4/figure15.png)
 
 Suppose some suboptimal goal $G_2$ has been generated and is in the queue. Let $n$ be an unexpanded node on a shortest (least cost) path to an optimal goal $G.$
 We want to prove: $f(n)<f(G_2)$ - (then A\* will prefer $n$ over $G_2$)
 
-![](img/l4/figure16.png)
+![](img/L4/figure16.png)
 
 ## Example - Admissibility-Optimality
 
-![](img/l4/figure17.png)
+![](img/L4/figure17.png)
 
 ## A\* is optimally efficient
 
@@ -1171,7 +1171,7 @@ This is because any algorithm that does not expand all nodes with $f(n)<C*$ has 
 
 A heuristic is **consistent** / **monotonous** if
 
-![](img/l4/figure18.png)
+![](img/L4/figure18.png)
 If $h$ is consistent, we have
 
 $$
@@ -1213,7 +1213,7 @@ Would it find the optimal solution?
 
 ## Example - More on A\* graph search
 
-![](img/l4/figure19.png)
+![](img/L4/figure19.png)
 
 - When a new node $N$ is generated:
   - If $N$ is in _Closed_ then discard $N$
@@ -1221,7 +1221,7 @@ Would it find the optimal solution?
 
 ## Example cont. Graph with consistent heuristic
 
-![](img/l4/figure20.png)
+![](img/L4/figure20.png)
 
 - When a new node $N$ is generated:
   - If $N$ is in _Closed_ then discard $N$
@@ -1236,7 +1236,7 @@ Goal state is: Upper left tile is empty, in the rest of the frid: numbers 1-8 ar
 $h_1(n)=$ number of misplaced tiles
 $h_2(n)=$ total Manhattan distance (i.e., no. of squares from desired location of each tile)
 
-![](img/l4/figure21.png)
+![](img/L4/figure21.png)
 
 ## Dominance
 
@@ -1244,7 +1244,7 @@ If $h_2(n)\geq h_1(n)$ for all $n$ (both admissible) then $h_2$ dominates $h_1$ 
 
 Typical search costs:
 
-![](img/l4/figure22.png)
+![](img/L4/figure22.png)
 
 Given any admissible heuristics $h_a,h_b,$
 $$h(n)=max(h_a(n),h_b(n))$$
@@ -1275,7 +1275,7 @@ Constant space, suitable for online as well as offline search
 
 ## Incremental versus Local Search
 
-![](img/l4/figure23.png)
+![](img/L4/figure23.png)
 
 ## Properties of Local Search
 
@@ -1290,11 +1290,11 @@ Constant space, suitable for online as well as offline search
 
 Find the shortest (least cost) tour that visits each city and returns to the start-city, i.e., Eval(Solution) is minimum.
 
-![](img/l4/figure24.png)
+![](img/L4/figure24.png)
 
 Start with any complete tour, perform (action) pairwise exchanges
 
-![](img/l4/figure25.png)
+![](img/L4/figure25.png)
 
 Variants of this approach get within 1% op optimnal very quicklu with thousands of cities
 
@@ -1304,7 +1304,7 @@ Put $n$ queens on an $n\times n$ board with no two queens on the same row, colum
 
 Move a queen (on the same column) to reduce the number of conflicts
 
-![](img/l4/figure26.png)
+![](img/L4/figure26.png)
 
 Almost always colves $n$-queens problems almost instantaneously for very large $n,$ e.g., $n=1$ million
 
@@ -1312,21 +1312,21 @@ Almost always colves $n$-queens problems almost instantaneously for very large $
 
 Put as many eggs as possible into the $M\times N$ carton, but never have more than $K$ eggs along any horizontal, vertical or diagonal line. Typically, $K=2.$
 
-![](img/l4/figure27.png)
+![](img/L4/figure27.png)
 
 ## Representations, Translation and Evaluation
 
-![](img/l4/figure28.png)
+![](img/L4/figure28.png)
 
 ## State-space Landscape
 
 Useful to consider **state space landscape**
 
-![](img/l4/figure29.png)
+![](img/L4/figure29.png)
 
 ## Search Landscape
 
-![](img/l4/figure30.png)
+![](img/L4/figure30.png)
 **Critical-Design Decisions**
 
 - Objective function defines the landscape.
@@ -1352,7 +1352,7 @@ VALUE may be the value of objective function (ascending, here) or heuristic cost
 
 ## Hill-Climbing - 8-puzzle
 
-![](img/l4/figure31.png)
+![](img/L4/figure31.png)
 
 Heuristic cost $h=17$ for the state on the left, and $h=1$ for the state on the right.
 $h=$ number of paris of queens attacking each other.
@@ -1361,11 +1361,11 @@ $h=$ number of paris of queens attacking each other.
 
 "Like climbing Everest in thick fog with amnesia."
 
-![](img/l4/figure32.png)
+![](img/L4/figure32.png)
 
 ## Hill-Climbing
 
-![](img/l4/figure33.png)
+![](img/L4/figure33.png)
 **Properties**
 
 - Greedy: always moves to states with immediate benefits, (i.e., $\uparrow$ evals).
@@ -1374,7 +1374,7 @@ $h=$ number of paris of queens attacking each other.
 
 ## Simulated Annealing (SA)
 
-![](img/l4/figure34.png)
+![](img/L4/figure34.png)
 **Properties**
 
 - Hill-climbing with _jiggle._
@@ -1427,7 +1427,7 @@ Observe the close analogy to natural selection!
 
 Example: 8-queens
 
-![](img/l4/figure35.png)
+![](img/L4/figure35.png)
 
 Fitness function (i.e., objective fn): number of non-attacking pairs
 Selection: Probability of being regenerated in the next generation
@@ -1438,7 +1438,7 @@ GAs require states encoded as strings (GPs use programs)
 
 Crossover helps **iff substrings are meaningful components**
 
-![](img/l4/figure36.png)
+![](img/L4/figure36.png)
 
 ## Summary
 
@@ -1463,8 +1463,8 @@ Crossover helps **iff substrings are meaningful components**
   - **Zero-sum** - The total losses and gains of both agents sums to zero.
   - **Perfect information** - All participants have full knowledge about their cost and utility functions and game history.
 
-![](img/l5/figure1.png)
-![](img/l5/figure2.png)
+![](img/L5/figure1.png)
+![](img/L5/figure2.png)
 
 ## Example: Nim
 
@@ -1472,11 +1472,11 @@ Crossover helps **iff substrings are meaningful components**
 - Perfect information, 2-player, Deterministic, Zero-sum, Turn-taking.
 - We can represent the game as a tree and do search
 
-![](img/l5/figure3.png)
+![](img/L5/figure3.png)
 
 ## Example: Tic-tac-toe
 
-![](img/l5/figure4.png)
+![](img/L5/figure4.png)
 Problem/question: What is the best strategy to win?
 In tic-tac-toe when both players play optimally, neither player will win.
 
@@ -1518,7 +1518,7 @@ The MiniMax value of a node (MINIMAX$(n)$) is the **utility** for MAX of being i
 
 ## Minimax adversarial search algorithm
 
-![](img/l5/figure5.png)
+![](img/L5/figure5.png)
 
 ## Basis Process of Adversarial Search
 
@@ -1557,7 +1557,7 @@ function MIN-VALUE(state) returns a utility value
 
 ## Minimax example
 
-![](img/l5/figure6.png)
+![](img/L5/figure6.png)
 
 ## Properties of minimax
 
@@ -1573,7 +1573,7 @@ But do we need to explore every path?
 
 ## Alpha-Beta Pruning
 
-![](img/l5/figure7.png)
+![](img/L5/figure7.png)
 
 ## Alpha and Beta
 
@@ -1633,15 +1633,15 @@ function MIN-VALUE(state, alpha, beta) returns a utility value
 
 ## A moment in MAX node's life
 
-![](img/l5/figure8.png)
+![](img/L5/figure8.png)
 
 ## A moment in MIN node's life
 
-![](img/l5/figure9.png)
+![](img/L5/figure9.png)
 
 ## $\alpha$-$\beta$ pruning example
 
-![](img/l5/figure10.png)
+![](img/L5/figure10.png)
 
 ## Properties of $\alpha$-$\beta$
 
@@ -1649,7 +1649,7 @@ function MIN-VALUE(state, alpha, beta) returns a utility value
 - Good move ordering improves effectiveness of pruning
 - Which nodes can be pruned in the following example:
 
-![](img/l5/figure11.png)
+![](img/L5/figure11.png)
 
 With "perfect ordering," time complexity = $O(b^{m/2})$
 $\implies$ **doubles** solvable depth
@@ -1677,7 +1677,7 @@ Properties of a good evaluation function:
 - Computation must not take too long (that's the whole point remember).
 - For non-terminal states, the evaluation function should be strongly correlated with the true chance of winning.
 
-![](img/l5/figure12.png)
+![](img/L5/figure12.png)
 
 For chess, typically linear weighed sum of features
 
@@ -1688,7 +1688,7 @@ $$f_1(s)=\text{(number of white queens)}-\text{(number of black queens)},\quad\t
 
 ## Digression: Exact values don't matter
 
-![](img/l5/figure13.png)
+![](img/L5/figure13.png)
 
 Behaviour is preserved under any **monotonic** transformation of EVAL
 
@@ -1711,7 +1711,7 @@ We use chance nodes to represent chance in stochastic games:
 
 Simplified example with coin-flipping:
 
-![](img/l5/figure14.png)
+![](img/L5/figure14.png)
 
 ## Algorithms for nondeterministic games
 
@@ -1731,7 +1731,7 @@ alternative: ...
 
 ## Digression: Exact values DO matter
 
-![](img/l5/figure15.png)
+![](img/L5/figure15.png)
 
 EVAL should be proportional to the expected payoff.
 
@@ -1753,7 +1753,7 @@ Games are to AI as grand prix racing is to automobile design.
 
 **Example:** $N$-queen problem
 
-![](img/l6/figure1.png)
+![](img/L6/figure1.png)
 
 Place $N$ queens on an $N\times N$ chess board with the constraint that they don't attack each other.
 
@@ -1761,7 +1761,7 @@ Place $N$ queens on an $N\times N$ chess board with the constraint that they don
 
 Solution to the 8-queen problem?
 
-![](img/l6/figure2.png)
+![](img/L6/figure2.png)
 
 There are $92$ different solutions.
 
@@ -1777,7 +1777,7 @@ We need computer-specific methods for solving such a problem.
 
 ## Method: Try every configuration systematically?
 
-![](img/l6/figure3.png)
+![](img/L6/figure3.png)
 
 Although computers are good at trying many small things quickly
 
@@ -1793,11 +1793,11 @@ Although computers are good at trying many small things quickly
 - This is the rationale behind the methods for solving CS problems.
 - $N$-queen problem is an instance of a generic problem class and we want to design algorithms that solve this type of problems.
 
-![](img/l6/figure4.png)
+![](img/L6/figure4.png)
 
 ## Example: Map-Coloring
 
-![](img/l6/figure5.png)
+![](img/L6/figure5.png)
 
 **Task/problem:** colour this map using $3$ colours with the **constraint:** adjacent regions must have different colours.
 
@@ -1822,7 +1822,7 @@ Although computers are good at trying many small things quickly
 
 ## Example: Map-Coloring
 
-![](img/l6/figure5.png)
+![](img/L6/figure5.png)
 
 - Variables: $\{WA,NT,Q,NSW,V,SA,T\}$
 - Domain: {red, green, blue}
@@ -1842,7 +1842,7 @@ Although computers are good at trying many small things quickly
 
 ## What is a Solution?
 
-![](img/l6/figure6.png)
+![](img/L6/figure6.png)
 
 **Solutions** are assignments satisfying all constraints, e.g.,
 
@@ -1852,7 +1852,7 @@ $$\{WA=red,NT=green,Q=red,\\NSW=green,V=red,SA=blue,T=green\}$$
 
 **Constraint graph:** nodes are variables, arcs shows constraints, e.g., in the following figure: WA and NT cannot take the same value.
 
-![](img/l6/figure7.png)
+![](img/L6/figure7.png)
 
 **Basic problem:** Find a $d_i\in D$ for each variable $V_i$ such that all constraints are satisfied, i.e., find consistent values for variables.
 
@@ -1902,9 +1902,9 @@ function RECURSIVE-BACKTRACKING(assignment, csp) returns soln/failure
 
 ## Example - Backtracking
 
-![](img/l6/figure8.png)
-![](img/l6/figure9.png)
-![](img/l6/figure10.png)
+![](img/L6/figure8.png)
+![](img/L6/figure9.png)
+![](img/L6/figure10.png)
 
 ## Improving backtracking efficiency by Heuristics
 
@@ -1920,7 +1920,7 @@ function RECURSIVE-BACKTRACKING(assignment, csp) returns soln/failure
 
 The choice of variable to be assigned next makes a difference.
 
-![](img/l6/figure11.png)
+![](img/L6/figure11.png)
 
 - Assume now this static order, WA, NT, Q, NSW, V, SA, T, and then these 2 assignments: WA = RED, NT = GREEN.
 - Q would be default next selection. But is it a good choice... After WA and NT are assigned? Problem for SA?
@@ -1929,13 +1929,13 @@ The choice of variable to be assigned next makes a difference.
 
 Which variable should be assigned next?
 
-![](img/l6/figure7.png)
+![](img/L6/figure7.png)
 
 - **Minimum remaining values (MRV) heuristic:** choose the variable with the fewest legal values
 - Also called "most constrained variable" or "fail first" heuristic
 - Objective: detect immediately if variable has no legal values (left) or most likely to cause a failure soon
 
-![](img/l6/figure12.png)
+![](img/L6/figure12.png)
 
 ## Degree heuristic
 
@@ -1946,7 +1946,7 @@ Which variable should be assigned next?
 - Objective: reduce the future branching on future choices
 - Tie-breaker among MRV variables
 
-![](img/l6/figure11.png)
+![](img/L6/figure11.png)
 
 ## What order should its values be tried?
 
@@ -1954,7 +1954,7 @@ Which variable should be assigned next?
 - Given a variable, choose the **least constraining value:** the one that rules out the fewest values in the remaining variables
 - Objective: make more likely to find a solution early
 
-![](img/l6/figure13.png)
+![](img/L6/figure13.png)
 
 Combining these heuristics makes $1000$ queens feasible
 
@@ -1984,18 +1984,18 @@ Combining these heuristics makes $1000$ queens feasible
 
 ## Example: Backtracking with Forward Checking
 
-![](img/l6/figure14.png)
-![](img/l6/figure15.png)
-![](img/l6/figure16.png)
+![](img/L6/figure14.png)
+![](img/L6/figure15.png)
+![](img/L6/figure16.png)
 
 ## Forward checking example in the book
 
 **Idea:** Keep track of remaining legal values for unassigned variables
 **Idea:** Terminate search when any variable has no legal values
-![](img/l6/figure17.png)
-![](img/l6/figure18.png)
-![](img/l6/figure19.png)
-![](img/l6/figure20.png)
+![](img/L6/figure17.png)
+![](img/L6/figure18.png)
+![](img/L6/figure19.png)
+![](img/L6/figure20.png)
 
 ## Inference - Arc consistency
 
@@ -2035,19 +2035,19 @@ function REMOVE-INCONSISTENT-VALUES(X_i, X_j) returns true iff succeeds
 
 Three variables, V1, V2, V3, and their initial domains. Values within each node show the initial domains of the variables.
 
-![](img/l6/figure21.png)
+![](img/L6/figure21.png)
 
 - A binary constraint (e.g., DIFF(V1, V2)) can be satisfied through checking 2 arcs, e.g. V1V2 and V2V1.
 - ALl arcs are checked for consistency, e.g., according to algorithm AC-3
 
-![](img/l6/figure22.png)
-![](img/l6/figure23.png)
+![](img/L6/figure22.png)
+![](img/L6/figure23.png)
 
 - For the arc V1-V2: check if there is a value in the domain of V2 for each value of V1 (i.e., R, G, B)
 - For the arc V2-V1: check if there is a value in the domain of V1 for each value of V2 (i.e., R, G)
 
-![](img/l6/figure24.png)
-![](img/l6/figure25.png)
+![](img/L6/figure24.png)
+![](img/L6/figure25.png)
 
 We stopped when there is no more changes.
 
@@ -2064,7 +2064,7 @@ BUT: Is Arc consistency sufficient to find a solution?
 Is this graph Arc-consistent?
 Solution?
 
-![](img/l6/figure26.png)
+![](img/L6/figure26.png)
 
 MESSAGE: SEARCH may be necessary to find a solution
 
@@ -2074,23 +2074,23 @@ PS! However, sometimes Arc-consistency alone may find the solution.
 
 Forward checking propagates information from assigned to unassigned variables, but doesn't provide early detection for all failures:
 
-![](img/l6/figure27.png)
+![](img/L6/figure27.png)
 
 $NT$ and $SA$ cannot both be blue!
 
 Arc consistency repeatedly enforces constraints locally
 
-![](img/l6/figure27.png)
+![](img/L6/figure27.png)
 
 Simplest form of propagation makes each arc consistent
 
 $X\rightarrow Y$ is consistent iff
 for each value $x$ of $X$ there is some allowed $y$
 
-![](img/l6/figure28.png)
-![](img/l6/figure29.png)
-![](img/l6/figure30.png)
-![](img/l6/figure31.png)
+![](img/L6/figure28.png)
+![](img/L6/figure29.png)
+![](img/L6/figure30.png)
+![](img/L6/figure31.png)
 
 If $X$ loses a value, neighbors of $X$ need to be rechecked
 Arc consistency detects failure earlier than forward checking
@@ -2120,18 +2120,18 @@ The local search strategies (e.g., hill-climbinb, simulated annealing) in # Lect
 
 ## Solving K-Queens with _Dumb_ Local Search
 
-![](img/l6/figure32.png)
+![](img/L6/figure32.png)
 
 ## Min Conflicts: Local Search with Intelligence
 
-![](img/l6/figure33.png)
+![](img/L6/figure33.png)
 
 - Moving queen to column of least violations $\rightarrow$ intelligent successor generation.
 - Integers denote number of violations if queen moved there.
 
 ## Problem structure
 
-![](img/l6/figure7.png)
+![](img/L6/figure7.png)
 
 Tasmania and mainland are **independent subproblems**
 
@@ -2139,7 +2139,7 @@ Identifiable as **connected components** of constraint graph
 
 ## Graph structure and problem complexity
 
-![](img/l6/figure7.png)
+![](img/L6/figure7.png)
 
 - Solving disconnected subproblems
   - Suppose each subproblem has $c$ variables out of a total of $n.$
@@ -2149,7 +2149,7 @@ Identifiable as **connected components** of constraint graph
   - $2^{80}=4$ billion years at $1$ million nodes/sec.
   - $4*2^{20}=.4$ second at $1$ million nodes/sec.
 
-![](img/l6/figure34.png)
+![](img/L6/figure34.png)
 
 - Theorem:
   - if a constraint graph has no loops then the CSP can be solved in $O(nd^2)$ time
@@ -2163,7 +2163,7 @@ Identifiable as **connected components** of constraint graph
 - **Knowledge base (KB):** A set of sentences that describe facts about the world in some formal (representational) language
 - **Inference engine:** A set of procedures that use the representational language to infer new facts from known ones as well as to answer a variety of KB queries.
 
-![](img/l7/figure1.png)
+![](img/L7/figure1.png)
 
 ## Operation on the Knowledge base
 
@@ -2203,16 +2203,16 @@ function KB-AGENT(percept) returns an action
 
 ## Remember the Wumpus' Cave
 
-![](img/l7/figure2.png)
+![](img/L7/figure2.png)
 
 ## Wumpus World PEAS description
 
-![](img/l7/figure3.png)
-![](img/l7/figure4.png)
+![](img/L7/figure3.png)
+![](img/L7/figure4.png)
 
 ## First movement
 
-![](img/l7/figure5.png)
+![](img/L7/figure5.png)
 
 - Knowledge Base: Rules of game/environment
 - Location (always starts at): $[1,1]$
@@ -2224,7 +2224,7 @@ function KB-AGENT(percept) returns an action
 
 ## Next move
 
-![](img/l7/figure6.png)
+![](img/L7/figure6.png)
 
 - Location: after move action - from $[1,1]$
 - Percept: $[Stench, \neg Breeze, \neg Glitter, \neg Bump, \neg Scream]$
@@ -2245,14 +2245,14 @@ function KB-AGENT(percept) returns an action
 
 ## Physical World and Internal Representations
 
-![](img/l7/figure7.png)
+![](img/L7/figure7.png)
 
 ## Computers and logic
 
 - Computers can use logic in order to, e.g.m prove mathematical theorems and to diagnose failures
 - But, first what is logic and how it works.
 
-![](img/l7/figure8.png)
+![](img/L7/figure8.png)
 
 ## Propositional Logic
 
@@ -2263,25 +2263,25 @@ In this # Lecture we deal with **Propositional (Boolean) Logic.** <a name="cwe">
 - One of the oldest disciplines in history
 - Dates back to Aristoteles
 
-![](img/l7/figure9.png)
-![](img/l7/figure10.png)
+![](img/L7/figure9.png)
+![](img/L7/figure10.png)
 
 ## Please use logic all the time
 
 - People use logic in order to talk about observations, to define concepts, and to formalize theories.
 - People use logic to prove something.
 
-![](img/l7/figure11.png)
+![](img/L7/figure11.png)
 
 - Using logical reasoning we can derive new information from what we already knew.
 
-![](img/l7/figure12.png)
-![](img/l7/figure13.png)
+![](img/L7/figure12.png)
+![](img/L7/figure13.png)
 
 - We use logical proos to convince others of our conclusions..
 
-![](img/l7/figure14.png)
-![](img/l7/figure15.png)
+![](img/L7/figure14.png)
+![](img/L7/figure15.png)
 
 ## Syntax of Propositional Logic
 
@@ -2295,7 +2295,7 @@ Syntax - symbols, sentences
 
 ## Syntax
 
-![](img/l7/figure16.png)
+![](img/L7/figure16.png)
 
 ## Atomic Sentences
 
@@ -2359,7 +2359,7 @@ An **interpretation** maps symbols to one of the two values: True $(T)$, or Fals
 
 Semantics of **compositional** sentences are determined using the standard rules of logic for connectives:
 
-![](img/l7/figure17.png)
+![](img/L7/figure17.png)
 
 ## Inference in propositional logic
 
@@ -2393,7 +2393,7 @@ How to desgin the procedure that answers $KB\models\alpha?$
 $KB=$ "RBK won" and "Brann won"
 $\alpha=$ "RBK won"
 
-![](img/l7/figure18.png)
+![](img/L7/figure18.png)
 
 $M(\alpha)$ is the set of all models of $\alpha$
 
@@ -2421,25 +2421,25 @@ Propositional representation of Wumpus gridworld.
 
 Consider possbiel models for $KB$ assuming only pits and a **reduced** Wumpus world with only 5 squares and pits:
 
-![](img/l7/figure19.png)
+![](img/L7/figure19.png)
 
 ## Wumpus Models
 
 The reduced Wumpus World. All 8 possible worlds/models are:
 
-![](img/l7/figure20.png)
+![](img/L7/figure20.png)
 
 ## Decision in Wumpus world by Model Checking
 
 Still reduced Wumpus gridworld example.
 
-![](img/l7/figure21.png)
+![](img/L7/figure21.png)
 
 ## Model Checking through Truth Tables
 
 Truth Table is a simple method for model enumeration and checking.
 
-![](img/l7/figure22.png)
+![](img/L7/figure22.png)
 
 - $M[(A\wedge B\rightarrow C)\wedge(A\wedge B)]=\{7\}\subseteq\{1,3,5,7\}=M(C).$
 - Yes
@@ -2455,7 +2455,7 @@ Truth Table is a simple method for model enumeration and checking.
 - $KB=R_1\wedge R_2\wedge R_3\wedge R_4\wedge R_5$
 - In this Wumpus world: 7 symbols (in $KB$). We can get $2^7=128$ models.
 
-![](img/l7/figure23.png)
+![](img/L7/figure23.png)
 
 - Answer: $KB\models\neg P_{1,2}$. No pit in $P_{1,2}.$
 
@@ -2485,7 +2485,7 @@ Truth Table is a simple method for model enumeration and checking.
 - **Soundness:** An inference procedure is sound
   - If whenever $KB\vdash_i\alpha,$ then it is also true that $KB\models\alpha$
 
-![](img/l7/figure24.png)
+![](img/L7/figure24.png)
 
 - **Completeness:** An inference procedure is complete
   - If whener $KB\models\alpha$ then it is also true that $KB\vdash_i\alpha$
@@ -2493,11 +2493,11 @@ Truth Table is a simple method for model enumeration and checking.
 
 ## Inference rules
 
-![](img/l7/figure25.png)
+![](img/L7/figure25.png)
 
 ## Some other inference rules
 
-![](img/l7/figure26.png)
+![](img/L7/figure26.png)
 
 ## Inference rules approach
 
@@ -2514,7 +2514,7 @@ Truth Table is a simple method for model enumeration and checking.
 Two sentences are **logically equivalent** iff true in same models:
 $\alpha\equiv\beta$ if and only if $\alpha\models\beta$ and $\beta\models\alpha$
 
-![](img/l7/figure27.png)
+![](img/L7/figure27.png)
 
 ## Inference rules approach - Example
 
@@ -2533,7 +2533,7 @@ Using Inference rules:
 
 - There may be more than one rule that can apply at a certain stage.
 
-![](img/l7/figure28.png)
+![](img/L7/figure28.png)
 
 - One solution: **Resolution** is a single inference rule that yields a complete inference algorithm
 
@@ -2562,7 +2562,7 @@ Using Inference rules:
 
 ## Resolution Rule
 
-![](img/l7/figure29.png)
+![](img/L7/figure29.png)
 
 ## Resolution algorithm
 
@@ -2596,7 +2596,7 @@ However to apply resolution technique its required to represent $KB$ as well as 
 
 ## Resolution (Refutation) for Wumpus problem
 
-![](img/l7/figure30.png)
+![](img/L7/figure30.png)
 
 Our knowledge base:
 $$(B_{1,1}\leftrightarrow(P_{1,2}\vee P_{2,1}))\wedge\neg B_{1,1}$$
@@ -2608,7 +2608,7 @@ For this, we need to show that $KB\wedge\neg\alpha$ is unsatisfiable.
 
 ## Remember the Logical Equivalences
 
-![](img/l7/figure27.png)
+![](img/L7/figure27.png)
 
 ## Resolution Refutation on Wumpus Example
 
@@ -2644,7 +2644,7 @@ KB&=(B_{1,1}\Leftrightarrow(P_{1,1}\vee P_{2,1}))\wedge\neg B_{1,1}\\
 \end{aligned}
 $$
 
-![](img/l7/figure31.png)
+![](img/L7/figure31.png)
 
 ## Problem with Resolution Refutation
 
@@ -2657,7 +2657,7 @@ $$
 - Definite clause: Disjunction of literals of which exactly one is positive; the rest are negative
 - Horn Clause: Disjunction of literals of which at most one is positive
 
-![](img/l7/figure32.png)
+![](img/L7/figure32.png)
 
 ## Forward and backward chaining
 
@@ -2671,23 +2671,23 @@ $$
 
 Forward and Backward algorithms rely on the inference rule **Modus Ponens** (for definite clause Form):
 
-![](img/l7/figure33.png)
+![](img/L7/figure33.png)
 
 ## Forward chaining
 
 Idea: fire any rule whose premises are satisfied in the $KB,$ add its conclusion to the $KB,$ until query is found
 
-![](img/l7/figure34.png)
+![](img/L7/figure34.png)
 
 ## Forward chaining example
 
-![](img/l7/figure35.png)
-![](img/l7/figure36.png)
-![](img/l7/figure37.png)
-![](img/l7/figure38.png)
-![](img/l7/figure39.png)
-![](img/l7/figure40.png)
-![](img/l7/figure41.png)
+![](img/L7/figure35.png)
+![](img/L7/figure36.png)
+![](img/L7/figure37.png)
+![](img/L7/figure38.png)
+![](img/L7/figure39.png)
+![](img/L7/figure40.png)
+![](img/L7/figure41.png)
 
 ## Backward chaning
 
@@ -2705,16 +2705,16 @@ Avoid repeated work: check if new suboal
 
 ## Backward chaining example
 
-![](img/l7/figure42.png)
-![](img/l7/figure43.png)
-![](img/l7/figure44.png)
-![](img/l7/figure45.png)
-![](img/l7/figure46.png)
-![](img/l7/figure47.png)
-![](img/l7/figure48.png)
-![](img/l7/figure49.png)
-![](img/l7/figure50.png)
-![](img/l7/figure51.png)
+![](img/L7/figure42.png)
+![](img/L7/figure43.png)
+![](img/L7/figure44.png)
+![](img/L7/figure45.png)
+![](img/L7/figure46.png)
+![](img/L7/figure47.png)
+![](img/L7/figure48.png)
+![](img/L7/figure49.png)
+![](img/L7/figure50.png)
+![](img/L7/figure51.png)
 
 ## Forward vs. backward chaining
 
@@ -2863,7 +2863,7 @@ Like, PL, FOL has:
   - On = $(a,b),(b,c),(d,e)$
   - the predicate On$(a,b)$ can be interpreted as $(a,b)\in$ On.
 
-![](img/l8/figure1.png)
+![](img/L8/figure1.png)
 
 ## Example of comparison of Propositional Logic and FOL
 
@@ -2883,7 +2883,7 @@ Primitives in Propositional Logic. Ski-race example.
 
 ## Models in Propositional Logic
 
-![](img/l8/figure2.png)
+![](img/L8/figure2.png)
 
 ## FOL Semantics - Interpretation
 
@@ -2894,7 +2894,7 @@ Primitives in Propositional Logic. Ski-race example.
   - Predicate symbols to relations and properties(1-ary rels.) on $D$
   - Function symbols to functional relations on $D$
 
-![](img/l8/figure3.png)
+![](img/L8/figure3.png)
 
 ## Ski Race: Conceptualization
 
@@ -2919,11 +2919,11 @@ Primitives in Propositional Logic. Ski-race example.
 
 Interpretation - Mapping from constant, function and predicate symbols of the representation to the conceptualization
 
-![](img/l8/figure4.png)
+![](img/L8/figure4.png)
 
 ## Another Legal Interpretation
 
-![](img/l8/figure5.png)
+![](img/L8/figure5.png)
 
 ## Universal Quantifiers
 
@@ -2937,7 +2937,7 @@ Interpretation - Mapping from constant, function and predicate symbols of the re
   $$\forall x\, At(x, NTNU)\implies Smart(x)$$
 - $\forall x\, P$ is true in a model $m$ iff $P$ is true with $x$ being **each** possible object in the model
 - **Equivalent to the _conjunction_ of _instantiations_ of $P$**
-  ![](img/l8/figure6.png)
+  ![](img/L8/figure6.png)
 
 ## Existential quantification
 
@@ -2947,19 +2947,19 @@ Interpretation - Mapping from constant, function and predicate symbols of the re
   $$\exists x\, At(x, NTNU)\wedge Smart(x)$$
 - $\exists x\, P$ is true if in a model $m$ iff $P$ is true with $x$ being **some** possible object in the model.
 - **Equivalent to the _disjunction_ of _instantiations_ of $P$**
-  ![](img/l8/figure7.png)
+  ![](img/L8/figure7.png)
 
 ## Evaluating Sentences with Quantified Variables
 
-![](img/l8/figure8.png)
+![](img/L8/figure8.png)
 
 ## Ski Models - Interpretation 1
 
-![](img/l8/figure9.png)
+![](img/L8/figure9.png)
 
 ## Ski Models - Interpretation 2
 
-![](img/l8/figure10.png)
+![](img/L8/figure10.png)
 
 ## Common mistakes with Quantifiers
 
@@ -3077,7 +3077,7 @@ Every KB in FOL can be "propositionalized"
 
 - We instantiate the universal sentence in _all_ possible ways.
   - The "Substitution" rule for instantiation of variables (for propositionalization):
-    ![](img/l9/figure1.png)
+    ![](img/L9/figure1.png)
     variable $x$ in the sentence $\alpha$ is substituted with a ground term $g$
 - Variable $x$ is _substituted_ with the _ground terms_ referring to the objects _John_ and _Richard_ in the model one by one.
 
@@ -3088,7 +3088,7 @@ Removal of existential quantifiers.
 - Each existentially quantified variable is replaced by a _Skolem_ constant or a _Skolem function._
 - **Skolem Constant:** if the existential variable is not within the scope of any universaly quantified variable. Every instance of the existentially quantified variable is replaced with the same unique constant, a brand new one does not appear anywhere else.
 - For any sentence $\alpha$ with variable $x,$ $x$ is substituted by _new constant symbol_ $k$ **that does not appear elsewhere in the knowledge base:**
-  ![](img/l9/figure2.png)
+  ![](img/L9/figure2.png)
   E.g., $\exists y(P(y)\wedge Q(y))$ is converted to: $P(CC)\wedge Q(CC)$
 
 ## Skolemization
@@ -3208,8 +3208,8 @@ S_3: \forall y\, Greedy(y)\\$
 
 ## Unification - exercise
 
-![](img/l9/figure3.png)
-![](img/l9/figure4.png)
+![](img/L9/figure3.png)
+![](img/L9/figure4.png)
 
 ## Unify and Infer
 
@@ -3251,8 +3251,8 @@ Likes(John, Mother(John))
 
 ## Motivation for Standardizing apart
 
-![](img/l9/figure5.png)
-![](img/l9/figure6.png)
+![](img/L9/figure5.png)
+![](img/L9/figure6.png)
 
 ## Standardizing apart
 
@@ -3275,7 +3275,7 @@ Now we would like to infer $Evil(John)$ without propositionalization. **We can u
 
 ## Adapting Modus Ponens to FOL
 
-![](img/l9/figure7.png)
+![](img/L9/figure7.png)
 
 - $P_1'$ is $King(John)$ and $P_1$ is $King(x)$
 - $\theta$ is $\{x/John\}$
@@ -3352,19 +3352,19 @@ Our data base:
 
 ## Forward chaining proof of Colonel West
 
-![](img/l9/figure8.png)
-![](img/l9/figure9.png)
-![](img/l9/figure10.png)
+![](img/L9/figure8.png)
+![](img/L9/figure9.png)
+![](img/L9/figure10.png)
 
 ## Backward chaining example
 
-![](img/l9/figure11.png)
-![](img/l9/figure12.png)
-![](img/l9/figure13.png)
-![](img/l9/figure14.png)
-![](img/l9/figure15.png)
-![](img/l9/figure16.png)
-![](img/l9/figure17.png)
+![](img/L9/figure11.png)
+![](img/L9/figure12.png)
+![](img/L9/figure13.png)
+![](img/L9/figure14.png)
+![](img/L9/figure15.png)
+![](img/L9/figure16.png)
+![](img/L9/figure17.png)
 
 ## Example Resolution Refutation - same example
 
@@ -3375,7 +3375,7 @@ First, we look at Resolution rule in FOL.
 ## Resolution Rule
 
 Full first-order version:
-![](img/l9/figure18.png)
+![](img/L9/figure18.png)
 where $UNIFY(l_j, \neg m_j)=\theta.$
 
 Two standardized clauses can be resoved if they contain **complementary literals** (one is the negation of the other). FOL literals are complementary if one _unifies_ with the negation of the other.
@@ -3446,7 +3446,7 @@ $$\forall x[\forall y\, Animal(y)\implies Loves(x,y)]\implies [\exists y\, Loves
   $American(West), Owns(Nono, M_1), Missile(M_1), Enemy(Nono, America)$
 - Add $\neg Criminal(West)$
 
-![](img/l9/figure19.png)
+![](img/L9/figure19.png)
 
 # Lecture 10 - Planning <a name="c10"></a>
 
@@ -3468,11 +3468,11 @@ People plan only when strictly necessary.
 
 ## Intelligent Agents: Planning, Execution, and Learning
 
-![](img/l10/figure1.png)
+![](img/L10/figure1.png)
 
 ## An early example
 
-![](img/l10/figure2.png)
+![](img/L10/figure2.png)
 
 - Example: NASA's Deep Space 1
   - Launched in 1998 to test technologies and perform flybys of astreroid Braille and Comet Borrelly
@@ -3495,7 +3495,7 @@ Chapter 2 defines 3 types of representation:
 - Factored
 - Structured
 
-![](img/l10/figure3.png)
+![](img/L10/figure3.png)
 
 ## Representational related issues
 
@@ -3595,7 +3595,7 @@ Basic idea:
 - Basic idea:
   - Describe actions at an abstract level as **action schema**
   - Uses a restricted form of predicate logic
-    ![](img/l10/figure4.png)
+    ![](img/L10/figure4.png)
     **Action:** $PutOn(r,x,y)$
     **Precondition:** $On(r,x)\wedge Clear(r)\wedge Clear(y)$
     **Effect:** $On(r,y)\wedge Clear(x)\wedge\neg On(r,x)\wedge\neg Clear(y)$
@@ -3632,7 +3632,7 @@ Basic idea:
 ## Design of Actions
 
 Example: Blocks are represented by constants $A,B,C$ and an additional constant, $Table,$ is representing the table.
-![](img/l10/figure5.png)
+![](img/L10/figure5.png)
 **Start:** $On(A, Table)\wedge On(B, Table)\wedge On(C, A)\wedge Clear(B)\wedge Clear(C)$
 **Goal:** $On(A, B)\wedge On(B,C)$
 **Action Schema:**
@@ -3685,7 +3685,7 @@ Two types of State-space planners:
 
 ## Progression (forward) planning
 
-![](img/l10/figure6.png)
+![](img/L10/figure6.png)
 
 Algorithm:
 
@@ -3697,9 +3697,9 @@ Algorithm:
 
 ## Example: supermarket domain
 
-![](img/l10/figure7.png)
+![](img/L10/figure7.png)
 Consider the task **get milk, bananas, and a cordless drill**
-![](img/l10/figure8.png)
+![](img/L10/figure8.png)
 
 - Actions of which preconditions are true at a state are "applicable" at that state.
 - Note that in this case there are **a lot** of possible actions to perform!
@@ -3713,7 +3713,7 @@ Consider the task **get milk, bananas, and a cordless drill**
 
 ## Regression (backward) planning
 
-![](img/l10/figure9.png)
+![](img/L10/figure9.png)
 
 Algorithm:
 
@@ -3742,7 +3742,7 @@ Algorithm:
 
 ## Example: supermarket domain
 
-![](img/l10/figure7.png)
+![](img/L10/figure7.png)
 
 In the goal state we have $Have(Milk)\wedge Have(Drill)\wedge Have(Banana)$
 
@@ -3758,9 +3758,9 @@ Next: We'll talk about the subgoal dependencies and planning algorithms that han
 ## Total vs Partial Order Planning
 
 **Total order:** Plan is always a strict sequence of actions
-![](img/l10/figure10.png)
+![](img/L10/figure10.png)
 **Partial order:** Plan steps may be unordered
-![](img/l10/figure11.png)
+![](img/L10/figure11.png)
 
 - The planning methods so far generated total-order plans - strict order of execution of actions
 - However, in some cases, the subgoals/subproblems are independent
@@ -3802,27 +3802,27 @@ In plan-space search:
 
 In this example on Partial order Planning (POP) the subproblems/subgoals are independent
 
-![](img/l10/figure12.png)
+![](img/L10/figure12.png)
 
 ## Example 1 - 2
 
-![](img/l10/figure13.png)
+![](img/L10/figure13.png)
 
 ## Example 1 - 3
 
-![](img/l10/figure14.png)
+![](img/L10/figure14.png)
 
 ## Example 1 - 4
 
-![](img/l10/figure15.png)
+![](img/L10/figure15.png)
 
 ## Example 1 - 5
 
-![](img/l10/figure16.png)
+![](img/L10/figure16.png)
 
 ## Example 1 - 6
 
-![](img/l10/figure17.png)
+![](img/L10/figure17.png)
 
 - Two subgoals, found a plan for each $P_1$ and $P_2$
   - $P_1:$ MoveToTable(B,A) + Move(A, Table, B)
@@ -3833,7 +3833,7 @@ In this example on Partial order Planning (POP) the subproblems/subgoals are ind
 
 ## Sussman Anomaly and Subgoal Dependency
 
-![](img/l10/figure18.png)
+![](img/L10/figure18.png)
 Total order planners typically separate the goal (stack A atop B atop C) into subgoals, such as:
 
 1. get A atop B
@@ -3850,23 +3850,23 @@ When using linear planning, we may for example repeatedly put A on top of B and 
 
 This example shows the threats/conflicts between actions, and ordering constraints in planning for Sussman anomaly type of cases.
 
-![](img/l10/figure19.png)
+![](img/L10/figure19.png)
 
 ## Example 2 - 2
 
-![](img/l10/figure20.png)
+![](img/L10/figure20.png)
 
 ## Example 2 - 3
 
-![](img/l10/figure21.png)
+![](img/L10/figure21.png)
 
 ## Example 2 - 4
 
-![](img/l10/figure22.png)
+![](img/L10/figure22.png)
 
 ## Example 2 - 5
 
-![](img/l10/figure23.png)
+![](img/L10/figure23.png)
 
 - Move(B, Table, C) must be after MoveToTable(C, A) - otherwise it will do $\neg$Clear(C) true
 - Move(A, Table, B) must be after Move(B, Table, C) for a similar reason
@@ -3897,7 +3897,7 @@ Back to State-space Search
 
 ## A planning graph
 
-![](img/l10/figure24.png)
+![](img/L10/figure24.png)
 
 - A layered graph
 - Two kinds of layers alternate
@@ -3936,33 +3936,33 @@ Main idea:
 - The red lines show mutex relationships
 - Those are the literals and actions that are mutually exclusive, i.e., cannot appear at the same time
 
-![](img/l10/figure25.png)
+![](img/L10/figure25.png)
 
 ## Mutex Relationships for Actions
 
 - Inconsistent effects: one action negates the effect of the other
-  ![](img/l10/figure26.png)
+  ![](img/L10/figure26.png)
 - Interference: one of the effects of one action is the negation of a precondition of the other
-  ![](img/l10/figure27.png)
+  ![](img/L10/figure27.png)
 - Competing needs: one of the preconditions of one action is mutually exclusive with a precondition of another
-  ![](img/l10/figure28.png)
+  ![](img/L10/figure28.png)
 
 ## Mutex Relationships for Literals/propositions
 
 - One is the negation of the other
 - Inconsistent support: all ways of achieving two literals is mutually exclusive
 
-![](img/l10/figure29.png)
+![](img/L10/figure29.png)
 
 ## Example
 
 In this example a husband is preparing dinner for the birthday of his wife without her being aware of.
 In the beginning there is garbage in the kitchen, hands are clean, and it is quiet. The goal of the husband is to wrap a gift, prepare a dinner, and remove the garbage before the dinner.
-![](img/l10/figure30.png)
+![](img/L10/figure30.png)
 
 ## Example - graph expanded to level $S_1$
 
-![](img/l10/figure31.png)
+![](img/L10/figure31.png)
 
 ## Solution extraction (first attempt)
 
@@ -3975,7 +3975,7 @@ In the beginning there is garbage in the kitchen, hands are clean, and it is qui
 
 ## Example - graph expanded to level $S_2$
 
-![](img/l10/figure32.png)
+![](img/L10/figure32.png)
 
 ## Solution extraction (second attempt)
 
@@ -4107,7 +4107,7 @@ Information that can be extracted from the planning graph:
 ## Example on sequential games: tic-tac-toe
 
 Sequential games, represented as a tree
-![](img/l11/figure1.png)
+![](img/L11/figure1.png)
 
 ## Strategic normal form games
 
@@ -4127,7 +4127,7 @@ Sequential games, represented as a tree
 - No communication - no way of agreement.
 - What kind of behavior would you expect them to display?
 
-![](img/l11/figure2.png)
+![](img/L11/figure2.png)
 
 ## Example 2: Stag Hunt
 
@@ -4187,7 +4187,7 @@ A game in strategic normal form is defined by:
 2. Actions:
    - Each agent $i$ chooses an action $a_i$ from its own action set $A_i$
    - The vector $a=(a_1,\dots,a_n)$ of individual actions is alled a **joint action** (or **action profile** or strategy profile). The set $A$ is the set of all joint ations.
-     ![](img/l11/figure3.png)
+     ![](img/L11/figure3.png)
 3. Utility function:
    - Each agent $i$ has its own utility function $u_i(a)$ that measures the goodness of the joint actions.
    - Each agent may give different preferences to different joint actions.
@@ -4210,7 +4210,7 @@ A game in strategic normal form is defined by:
 
 - Assume agent $i$ has $A_i=\{a,b\}$ and agent $j$ has $A_j=\{c,d\}$
 - Agent's utilities are shown as a payoff matrix
-  ![](img/l11/figure4.png)
+  ![](img/L11/figure4.png)
 - The payoff $u_1$ is the utility for agent $i$ when agent $i$ chooses action $a$ and agent $j$ chooses action $c.$
 - The payoff $u_2$ is the utility for agent $j$ when agent $i$ chooses action $a$ and agent $j$ chooses action $c.$
 
@@ -4228,19 +4228,19 @@ A game in strategic normal form is defined by:
   $$
   where $\omega_1=\{D,D\}, \omega_2=\{D,C\}, \omega_3=\{C,D\}, \omega_4=\{C,C\},$
 - We say agent $i$ and $j$'s preferences (over outcomes) are as follows:
-  ![](img/l11/figure5.png)
+  ![](img/L11/figure5.png)
 - If you ware agent $i,$ what would you prefer to do, $C$ or $D?$ Why?
 
 ## Rational action
 
 - We can characterize this scenario (preceding slide) in this payoff matrix:
-  ![](img/l11/figure6.png)
+  ![](img/L11/figure6.png)
 - $C$ is the rational choise for $i$, because $i$ prefers all outcomes that arise through $C$ over all outcomes that arise through $D,$ no matter what $j$ does. Indeed both agents prefer $C$ independently from each together!
 - In this situation agents do not need to worry about what the other agent will do - **no "strategic thinking".**
 
 ## Prisoner's Dilemma
 
-![](img/l11/figure7.png)
+![](img/L11/figure7.png)
 
 - Confess = defect
 - Stay silent = cooperate
@@ -4252,7 +4252,7 @@ A game in strategic normal form is defined by:
 
 ## Canonical PD payoff matrix
 
-![](img/l11/figure8.png)
+![](img/L11/figure8.png)
 Applies when this condition holds:
 $$T>R>P>S$$
 
@@ -4267,10 +4267,10 @@ $$T>R>P>S$$
 ## Strictly Dominant Strategy (SDS)
 
 **Example:**
-![](img/l11/figure9.png)
+![](img/L11/figure9.png)
 
 - Preferences:
-  ![](img/l11/figure10.png)
+  ![](img/L11/figure10.png)
 - "Defect" is the **strictly dominant strategy** for both agents.
 - $(D,D)$ is the strictly (also called **strongly**) dominant strategy equilibrium.
 
@@ -4293,10 +4293,10 @@ $$T>R>P>S$$
 - Does this game have a dominant strategy for agent $i?$
 - For agent $j?$
 
-![](img/l11/figure11.png)
+![](img/L11/figure11.png)
 
 - Preferences
-  ![](img/l11/figure12.png)
+  ![](img/L11/figure12.png)
 - Action $b$ is a strictly dominant action for agent $i.$
 - Action $b$ is a strictly dominant action for agent $j.$
 - Thus $(b,b)$ is a strictly dominant strategy equilibrium.
@@ -4311,7 +4311,7 @@ $$T>R>P>S$$
 ## Solution Concept: WDS equilibrium
 
 Example:
-![](img/l11/figure13.png)
+![](img/L11/figure13.png)
 
 - There is no strongly dominant strategy for each agent here.
 - Action $b$ is a weakly dominant strategy for both agent $i$ and agent $j$
@@ -4320,7 +4320,7 @@ Example:
 
 ## Example: No Dominant Strategy at all
 
-![](img/l11/figure14.png)
+![](img/L11/figure14.png)
 
 - The game has no dominant strategy equilibrium.
 
@@ -4335,7 +4335,7 @@ Example:
 
 ## Definition: Strictly/weakly dominated
 
-![](img/l11/figure15.png)
+![](img/L11/figure15.png)
 
 - Take a game in strategic form and consider any two actions $a_i, b_i\in A_i$ for any player $i\in N.$ We say that $a_i$ is **strictly dominated** by $b_i$ if
   $$u_i(a_i, a_{-i})<u_i(b_i, a_{-i})\quad\forall a_{-i}\in A_{-i}$$
@@ -4345,7 +4345,7 @@ Example:
 
 ## IEDS Example
 
-![](img/l11/figure16.png)
+![](img/L11/figure16.png)
 
 - $R$ is strictly dominated for agent $j$ (by action $M$)
 - We eliminate $R$ because agent $i,$ being rational, knows that agent $j$ will not play $R.$
@@ -4356,7 +4356,7 @@ Example:
 ## Example: Iterated elimination of weakly dominated actions (IEWDS)
 
 - If no strongly dominated actions, then use weakly dominated ones to eliminate
-  ![](img/l11/figure17.png)
+  ![](img/L11/figure17.png)
 - Does the order matter?
 - Start with eliminating $U$
 - Start with $M$
@@ -4384,7 +4384,7 @@ Two important notions for comparison and selection of solutions; How good is a s
 
 ## Example on pareto optimality
 
-![](img/l11/figure18.png)
+![](img/L11/figure18.png)
 
 - Which joint action(s) is/are pareto optimal?
   - $(A,A):$ optimal because no other outcome makes an agent better without making the other worse.
@@ -4412,19 +4412,19 @@ Two important notions for comparison and selection of solutions; How good is a s
 - Mark the best response(s) of each agent given the action choice of the other agent. A strategy profile where best response of all agents intersect is a Nash equilibrium (not necessarily a singleton set)
 - The Nash equilibriums are $(x,x)$ and $(y,y).$
 
-![](img/l11/figure19.png)
+![](img/L11/figure19.png)
 
 ## Finding NE - example
 
-![](img/l11/figure20.png)
+![](img/L11/figure20.png)
 
 ## Finding NE - another example
 
-![](img/l11/figure21.png)
+![](img/L11/figure21.png)
 
 ## Example: Prisoner's Dilemma
 
-![](img/l11/figure22.png)
+![](img/L11/figure22.png)
 
 - The strategy profile (defect, defect) is a Nash Equilibrium.
   - If agent $i$ changes its strategy (defect) to cooperate - the new situation is (cooperate, defect) - agent $i$ will be worse off (payoff from 2 to 1).
@@ -4440,7 +4440,7 @@ Two important notions for comparison and selection of solutions; How good is a s
 
 ## Multiple Nash equilibria
 
-![](img/l11/figure23.png)
+![](img/L11/figure23.png)
 
 - Not every interaction scenario has a single Nash equilibrium.
 - Consider two agents of whom chooses either l (left) or r (right). If their choice do not match, they receive a payoff of zero.
@@ -4451,7 +4451,7 @@ Two important notions for comparison and selection of solutions; How good is a s
 
 ## Example: Multiple Nash equilibria - Battle of sexes
 
-![](img/l11/figure24.png)
+![](img/L11/figure24.png)
 
 - The story: Two individuals (a woman and a man) are arguing abot what to do for entertainment in the evening.
 - The couple is in love, to the most important thing is to do something together; both view the night "wasted" unless they spend it together.
@@ -4467,7 +4467,7 @@ Two individuals go out on a hunt. Each can individually choose to hunt a stag or
 - Each agent wants to do what the other does - which may be different than what they _say_ they'll do.
 - Coordination game
 
-![](img/l11/figure25.png)
+![](img/L11/figure25.png)
 
 - Two pure Nash equilibria: $(H,H)$ and $(S,S).$
 - $(S,S)$ is pareto optimal/payoff dominant (more payoff) while $(H,H)$ is risk dominant (less risky).
@@ -4495,7 +4495,7 @@ Two individuals go out on a hunt. Each can individually choose to hunt a stag or
 
 ## Zero-sum - Example
 
-![](img/l11/figure26.png)
+![](img/L11/figure26.png)
 
 - Mathing pennies game
 - Two agents. Each chooses either Head or Tail simultaneously. If the choice differ, agent $i$ pays agent $j$ (let's say 100 NOK). If they choose the same, agent $j$ pays agent $i$.
@@ -4504,7 +4504,7 @@ Two individuals go out on a hunt. Each can individually choose to hunt a stag or
 
 ## Mixed Strategies
 
-![](img/l11/figure27.png)
+![](img/L11/figure27.png)
 
 - No Nash: Because in Nash, the players don't change their strategies even when they know what the other agent will play.
 - Here for every strategy pair, there is an agent that may want to change his strategy to get more payoff.
@@ -4560,7 +4560,7 @@ Axelrod suggested the following rules for succeeding in his tournament:
 
 ## Knowledge-based systems
 
-![](img/l12/figure1.png)
+![](img/L12/figure1.png)
 
 "Knowledge is knowing that a tomato is a fruit, wisdom is not putting it in a fruit salad." - _Miles Kington_
 
@@ -4588,7 +4588,7 @@ Knowledge acquisition is the part of the job of Knowledge engineer.
 
 ## The upper ontology of the world
 
-![](img/l12/figure2.png)
+![](img/L12/figure2.png)
 
 ## Difference with special-purpose ontologies
 
@@ -4746,13 +4746,13 @@ PartOf(x,y)\wedge PartOf(y,z)\implies PartOf(x,z)$
 
 ## Semantic network example
 
-![](img/l12/figure4.png)
+![](img/L12/figure4.png)
 
 ## Multiple inheritance
 
-![](img/l12/figure5.png)
+![](img/L12/figure5.png)
 White - Royal Elephant is more specific than Elephant.
-![](img/l12/figure6.png)
+![](img/L12/figure6.png)
 Use model preference. E.g., religious belief may be given preference over political beliefs.
 
 ## Frame-based representations - example
@@ -4760,8 +4760,8 @@ Use model preference. E.g., religious belief may be given preference over politi
 - A Frame consists of a number of slots.
 - A slot consists of a variable (a property) which has a value
 
-![](img/l12/figure7.png)
-![](img/l12/figure8.png)
+![](img/L12/figure7.png)
+![](img/L12/figure8.png)
 
 ## Frame-based representations
 
@@ -4779,7 +4779,7 @@ Use model preference. E.g., religious belief may be given preference over politi
 - Logic and semantic networks are declarative knowledge representatiojn languages.
 - Frame-based languages are also mainly declarative but can also represent procedural knowledge through **demons**
 
-![](img/l12/figure9.png)
+![](img/L12/figure9.png)
 
 ## Reasoning with default information
 
@@ -4802,7 +4802,7 @@ Use model preference. E.g., religious belief may be given preference over politi
 - If we add $penguin(Tweety)$ to the premises, then we can infer $ab(Tweety)$ by rewriting the default sentence like this:
   - $(\forall x)bird(x)\wedge\neg flies(x)\rightarrow ab(x)$
 
-![](img/l12/figure10.png)
+![](img/L12/figure10.png)
 
 ## Default logic
 
@@ -4891,7 +4891,7 @@ It is nevertheless good to have such principles as orientation points along one 
 ## ML-pipeline
 
 The "reasoning" processes underlying machine learning systems.
-![](img/l12/figure11.png)
+![](img/L12/figure11.png)
 
 ## Why/when AI-fairness is important?
 
@@ -4917,11 +4917,11 @@ Many things become automated by machine learning:
 - How to measure it?
 - How to solve it?
 
-![](img/l12/figure12.png)
+![](img/L12/figure12.png)
 
 ## Source of Bias in Data
 
-![](img/l12/figure13.png)
+![](img/L12/figure13.png)
 
 ## COMPAS example to Fairness
 
@@ -4929,17 +4929,17 @@ Many things become automated by machine learning:
 - It is about a system called COMPAS designed for predicting which criminals will reoffend.
 - It is used by judges for risk estimation, across USA.
 
-![](img/l12/figure14.png)
+![](img/L12/figure14.png)
 
 ## Performance of an AI system
 
-![](img/l12/figure15.png)
+![](img/L12/figure15.png)
 
 - In this course we talked about PEAS (i.e. performance, environment, actuators, sensors), and defined rational behaviour as
   - _an agent's taking actions that maximize the expected value of the **performance measure** given the percept sequrnce so far._
 - Performance of an agent is measured through its "objective function"
 
-![](img/l12/figure16.png)
+![](img/L12/figure16.png)
 
 ## Objective function
 
@@ -4990,7 +4990,7 @@ Consequentialists can and do differ widely in terms of specifying the Good. Some
 
 ## Famous "Trolley Problem" and Autonomous driving
 
-![](img/l12/figure17.png)
+![](img/L12/figure17.png)
 
 - The story goes like this: There is a runaway trolley barrelling down the railway tracks. Ahead, on the tracks, there are five people tied up and unable to move. The trolley is headed straight for them. You are standing some distance off in the train yard, next to a lever. If you pull this lever, the trolley will switch to a different set of tracks. However, you notice that there is one person on the side track. You have two options:
   - Do nothing and allow the trolley to kill the five people on the main track.
