@@ -2,6 +2,6 @@
 
 [Lecture notes](Lectures2020.md)
 
-[Previous exams](Old_Exams)
+[Previous exams](Old_exams)
 
-[Combined exams answer pdf](Old_Exams/Answers-Combined.pdf)
+[Combined exams answer pdf](Old_exams/Answers-Combined.pdf)
